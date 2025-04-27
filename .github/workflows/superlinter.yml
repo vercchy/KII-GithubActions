@@ -44,8 +44,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t vercchy/KII-GithubActions:latest .
+          docker build -t vercchy/kii-githubactions:latest .
 
       - name: Push Docker image
         run: |
-          docker push vercchy/KII-GithubActions:latest
+          docker push vercchy/kii-githubactions:latest
