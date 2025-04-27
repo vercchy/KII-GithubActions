@@ -5,9 +5,10 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-    permissions:
-      contents: read
-      actions: write
+    
+ permissions:
+    contents: read
+    actions: write
 
 jobs:
   lint:
